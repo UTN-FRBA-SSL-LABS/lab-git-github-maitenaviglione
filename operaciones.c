@@ -2,7 +2,7 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-//Fue añadido en un solo el const porque me olvide
+// Se agregan const porque los parámetros no se modifican
 int sumar(const int a, const int b) {
     return a + b;
 }
@@ -14,6 +14,7 @@ int restar(const int a, const int b) {
 }
 
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
+
 // Esta funcion realiza la multiplicacion de dos enteros
 // recibiendo un entero y otro entero se multiplica el primer elemento por el segundo
 int multiplicar(int a, int b) {
@@ -23,5 +24,5 @@ int multiplicar(int a, int b) {
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
 int esPar(int n) {
-    return (n % 2) == 0; /* version main */
+    return (n % 2) == 0;
 }
